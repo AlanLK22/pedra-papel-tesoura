@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+
+:root {
+    --primary-color: rgb(29, 111, 187);
+    --primary-color-darkner: rgb(12, 54, 94);
+
+}
+
+
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to left, rgb(17, 123, 165), rgb(127, 204, 255), rgb(38, 55, 207));
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    background-size: 200% 100%;
+    animation: anima 7s infinite alternate;
+    
+    
+    }
+
+@keyframes anima {
+    0%{
+        background-position-x: 0%;
+    } 100% {
+        background-position-x: 100%;
+    }
+}
+
+    .container {
+        max-width: 640px;
+        background: #fff;
+        margin: 50px auto;
+        padding: 20px;
+        border-radius: 20px;
+        text-align: center;
+        
+        
+    }
+
+    .computador {
+        padding: 40px;
+        
+    }
+
+        .usuario {
+            margin: 3em;
+            
+        }
+      #placar{
+        color: rgb(100, 133, 128);
+        font-style: italic;
+      }
